@@ -19,7 +19,7 @@ NTPClient timeClient(ntpUDP, "pool.ntp.org", utcOffsetInSeconds);
 const char *ssid = "OPPO A3s";  
 const char *password = "IWAKKADAL";
 
-const char *mqtt_server = "ec2-3-83-145-199.compute-1.amazonaws.com";
+const char *mqtt_server = "ec2-54-83-78-4.compute-1.amazonaws.com";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
