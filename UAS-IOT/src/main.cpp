@@ -110,5 +110,5 @@ void loop() {
     Serial.print("Suhu : ");
     Serial.print(t);
 
-    client.publish("")
+    client.publish("dht/temp", temperatureTemp);
 }
